@@ -8,7 +8,7 @@
 
 打印注册函数
 
-```
+```shell
 frida -U --no-pause -f package_name -l hook_RegisterNatives.js
 ```
 
@@ -18,6 +18,17 @@ frida -U --no-pause -f package_name -l hook_RegisterNatives.js
 
 标准算法自吐
 
-```
+```shell
 frida -U --no-pause -f package_name -l auto_print.js
 ```
+
+
+
+## 3. RPC
+
+rpc示例代码
+
+```shell
+python rpc.py
+```
+
